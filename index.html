@@ -118,14 +118,22 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/my-grasshoper/" class="color-inherit dim link">
-            
+          <a href="/posts/grasshopper%E8%BF%AD%E4%BB%A3%E5%AD%A6%E4%B9%A011%E8%AE%BE%E8%AE%A1%E7%AE%97%E6%B3%958%E7%82%B9%E4%BD%93%E6%8E%92%E5%BA%8F/" class="color-inherit dim link">
+            grasshopper迭代学习11|设计算法：8点体排序
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          grasshopper经历 sdaasdsadad asdasdasd
+          grasshopper迭代学习11|设计算法：8点体排序  在朋友的指导下，我首次尝试使用hugo建立了首个个人网站
+ 建模过程中常见的一个问题就是，一根切二面角的立方体，如何准确的提取出原料长、二面切角等参数。而批量提取这些参数的一大必要过程就是将8个顶点进行有规律的排序。
+我开发了一个8点体通用的快速排序思路，抛砖引玉，希望能给大家带来更多排序技巧的启发。
+有了这个思路，8点体的提参将变得非常简单，完全可以手动结合gh建模，最终化零为整的进行排序。
+那么算法的秘诀有两个：
+ 视角。任何旋转视图后的视角，都有一个对应的工作平面。可以借用rs.ViewCameraPlane()这个函数调用获得。而这个获取的plane自然具有XYZ三个法向，它们就是排序算法的依据。 工程模式视图。这个视图最大的特点是隐藏线的虚线显示，可以在视觉上帮我们搞清楚一个8点体各条棱线的空间前后关系（视图plane的Z向），上下左右关系（视图中的XY关系）。  依据这两个技巧的结合，我们便可以设计出一种：将视图旋转到某种规律的状态下，自动将8点体顶点按照特定拓扑顺序排序的算法。
+这个算法，则可以成为我们化零为整进行8点体排序的重要算子。
+用法如下：
+ 我们将显示模式设置为工程模式。 将视图旋转，使该“龙骨”大致呈现为“一”字型——左右各四个端点，切相距较远。 微调视图，使隐藏线虚线位于从上到下第2条的位置。 在gh里拾取这个brep，输出端自动出现8点集的polyline，将其explode即可获得标准化的8点集 利用8点集进行各种点测距测角，即可得出各个相关参数。  
         </div>
-          <a href="/posts/my-grasshoper/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/grasshopper%E8%BF%AD%E4%BB%A3%E5%AD%A6%E4%B9%A011%E8%AE%BE%E8%AE%A1%E7%AE%97%E6%B3%958%E7%82%B9%E4%BD%93%E6%8E%92%E5%BA%8F/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
