@@ -1,52 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>邱继衠——时间为尺，丈量行程</title>
-    <link>https://qiuheng.github.io/</link>
-    <description>Recent content on 邱继衠——时间为尺，丈量行程</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://qiuheng.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://qiuheng.github.io/posts/%E7%82%B9%E9%9B%86%E6%B5%81%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiuheng.github.io/posts/%E7%82%B9%E9%9B%86%E6%B5%81%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF/</guid>
-      <description>点集流进阶之路 前言 关于我 大家好，我是邱继衠（邱工），一个专注gh搞幕墙6年的老小伙，本科毕业于华中科技大学交通工程系。从对建筑、幕墙、BIM、犀牛、gh这些一无所知的纯外行，一步步把自己折腾成了搞场馆类幕墙施工BIM的专业户。做过的大型异形幕墙项目：苏州太平金融大厦、襄阳东站、青岛市民健身中心体育场、西安奥体中心游泳馆、雄安商务服务中心、长安云、青岛亚洲杯足球场、青岛图书馆等。
-代表工程作品 苏州·太平金融大厦
-西安·奥体中心游泳馆
-雄安·商服中心
-西安·长安云
-青岛·亚洲杯足球场
-成都·云端音乐厅
-郑州·大剧院音乐厅
-我的自学之路 我是在16年7月第一次下载犀牛，开始自学rhino、gh的时候，还没有这么好的学习条件，没有这么多教程。印象中有堂主蒯鼎的专筑课和大鹿的Mesh公开课。
-8月做项目的时候连grasshopper的bake都不懂的情况下，试着写rhino python script来解决效率问题。
-9-12月，我大概平均每天睡觉4小时，疯狂在项目压力下研究学习gh，本着刨根问底的态度，一个个穷举尝试，逐步了解各个运算器功能和数据结构的用法。
-17年我已经可以通过参数化解决公司很多项目问题，17-18年我在Udacity上完成自学Python数据分析的课程打下了python基础。后续不断产、学、研中完善自己的参数化风格。教学经验 17年开始，多次在公司内部培训grasshopper数据结构
-18年我开始在自己公众号、知乎等平台发布自己制作的图文教程#grasshopper迭代学习 (qq.com)，记录学习参数化过程中的一些瓶颈知识点。很高兴得到一些小伙伴的认可，跟着我的教程入门。
-19年开始在网络上有朋友私下跟我学gh，我开始了1v1收徒长期教学的尝试。
-20年曾被企业邀请做线下培训。
-21年开始在更多朋友找我学gh的情况下，我尝试社群直播更新的方式，一对多教学。一年之约，请随我们一起耐力长跑！ (qq.com)
-为什么做这样的记录型课程 从事一个很细分的领域6年的我，认为做技术专业深度重要的同时，做横向延伸也非常重要。一份技术只有自己会，难以发扬光大。
-深受《深度工作》一书影响，我认为越深的知识，能传播的越久远，影响力越大，成为一个IP。
-拥有操刀多个大型异形工程参数化落地的宝贵经历，给我找出其共性方法论的使命感。
-所以我决定把经验心得毫无保留的传授出来，这是一条我在幕墙参数化领域走出来的一条路，我将它称作“点集流进阶之路”，这条路未来怎么走还不确定，但是沿着这条路，至少可以帮助每位爱学习的朋友，了解真实落地的大型幕墙工程设计、施工、加工阶段的参数化方法论，大踏步的跟进技术前沿。
-与时间赛跑 真实工程往往繁复，在一个施工企业中做技术工作更是如此，所以同行中能有精力细数工程细节和关键点，并录制成系统教程的也不多。做工程往往是与时间赛跑，教与学的时间都要从高强度工作中硬挤，坚持并不容易。
-周更社群 也是意识到这一点，我在2021年4月给自己下达了任务，创办教学社群，以每周一小时的更新频率完成教学。这是我参考《微习惯》这本书的一个尝试——让任务简单到很难失败。如今2022年5月了，我将履约完毕，更完这52节、实际超过52小时的课程。
-课程介绍 进阶前的基础知识 本着记录性课程的制作思路，进阶课的制作是在《grasshopper迭代学习》的基础上制作的，所以完全没有基础的同学，可以先不要着急学习进阶课，把以下先验知识先温习一遍。不然经测试会跟不上进阶课的讲解速度。#grasshopper迭代学习 (qq.com)
-01预热 Grasshopper迭代学习01|预热 (qq.com)
-02视图 grasshopper迭代学习02|视图 (qq.com)
-03高频 grasshopper迭代学习03|高频 (qq.com)
-04操纵（数据结构） grasshopper迭代学习04|操纵(1) (qq.com)
-05操纵（几何排序） grasshopper迭代学习05|操纵(2) (qq.com)
-06三维（点与平面） grasshopper迭代学习06|三维 (qq.com)
-07点集流绪论 grasshopper迭代学习07|点集流 (qq.com)
-08点集流应用 grasshopper迭代学习08|点集算法：切割面 (qq.com)
-09ghpython grasshopper迭代学习09|快节奏入门ghpython (qq.com)
-10特征值 grasshopper迭代学习10|特征值 (qq.com)
-进阶课大纲 c01模型+特征值=归类模型+数据 任何一个完整工程BIM技术应用，都可以拆分为多个“按需提参”的子任务。 任何子任务的本质都是——根据需求建模，并提供模型+数据。 第一节进阶课，没有建模的教学，而是提出这个输出成果的常用范式——将图元解析出特征值，然后自动归类统计出相应数据，同时生成相应分类模型。 这一范式，可以应用于面材下单、线材提料、散件计量、单元组装提参等几乎所有幕墙工程应用点。是干货中的干货，所以在第一节先引出。</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>邱继衠</title>
+        <link>https://qiuheng.github.io/</link>
+        <description>关于 LoveIt 主题</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>867330789@qq.com (邱继衠)</managingEditor>
+            <webMaster>867330789@qq.com (邱继衠)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+            <atom:link href="https://qiuheng.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title></title>
+    <link>https://qiuheng.github.io/%E7%82%B9%E9%9B%86%E6%B5%81%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>邱继衠</author>
+    <guid>https://qiuheng.github.io/%E7%82%B9%E9%9B%86%E6%B5%81%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF/</guid>
+    <description><![CDATA[点集流进阶之路 前言 关于我 大家好，我是邱继衠（邱工），一个专注gh搞幕墙6年的老小伙，16年本科毕业于华中科技大学交通工程系。从对建筑、幕墙、]]></description>
+</item>
+</channel>
 </rss>
