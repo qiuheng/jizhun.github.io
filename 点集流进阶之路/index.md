@@ -1,4 +1,4 @@
-# 
+# 教程·点集流进阶之路
 
 # 点集流进阶之路
 
@@ -41,7 +41,7 @@
 
 
 ### 我的自学之路
-我是在16年7月第一次下载犀牛，开始自学rhino、gh的时候，还没有这么好的学习条件，没有这么多教程。印象中有堂主蒯鼎的专筑课和大鹿的Mesh公开课。
+我是在16年7月第一次下载犀牛，开始自学rhino、gh的时候，还没有这么好的学习条件，没有这么多教程。
 
 8月做项目的时候**连grasshopper的bake都不懂**的情况下，试着写rhino python script来解决效率问题。
 
@@ -115,7 +115,7 @@
 
 #### 10特征值
 
-[grasshopper迭代学习10|特征值 (qq.com)](https://mp.weixin.qq.com/s?src=11&timestamp=1651894881&ver=3783&signature=5IfPrTNBbrYw91gD-jiBlgHyCDJfKtJibAtKk1ic5iBIsl4qMinxE6VXRehVFII08DIcw-SxjumFIGdR*JN-iB3F-5zu2DZDA1FeEJGovHuSMq37XouorgSWBrDUTzjZ&new=1)
+[grasshopper迭代学习10|特征值 (qq.com)](https://mp.weixin.qq.com/s?__biz=MzU2NTU4Nzk1MA==&mid=2247485214&idx=1&sn=a4d06ebfa93f01e529cf0efff9115e44&chksm=fcb83d9fcbcfb489fc528c44887bed5d35ba630b5256a30af47eb64c1eafaa8db312ac350a30&scene=178&cur_album_id=1348442263634018306#rd)
 
 ### 进阶课大纲
 #### c01模型+特征值=归类模型+数据
@@ -197,5 +197,4 @@ python动画教程第三节，怎么将多个小动画串起来构成长动画�
 青岛亚洲杯足球场综合案例。装配式项目（单元式项目也可）怎么做，看这个系列就够了。非常综合的一个案例，我最近做的工程，驾轻就熟的运用了**点集分工、点集python算法、特征值生成、特征值输出**等工作流，非常成熟的应用，解决此类项目的范式。
 #### c45-52(框架式立体三角块纹理幕墙）
 青岛图书馆综合案例。框架式项目，常规框架幕墙、双曲玻璃幕墙、立体肌理三种大元素的杂糅。难度很高的幕墙，也是我最新挣脱舒适区的尝试。青岛亚洲杯足球场可以算是点集流的过去，青岛图书馆的实践则指向点集流的未来。
-
 
